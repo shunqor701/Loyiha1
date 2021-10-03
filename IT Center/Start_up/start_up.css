@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-color: #15054c;
+}
+header  .Js{
+    max-width: 1440px;
+    height: 100vh;
+    background-image: url('../img/images/bac-hedaer_03.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    
+}
+header .Js a{
+    font-size: 20px !important;
+    color: white !important;
+    margin-right: 40px;
+    font-family: 'Gemunu Libre', sans-serif;
+}
+header .Js h4{
+    margin-left: 15px;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Gemunu Libre', sans-serif;
+    color: #fff;
+}
+header .Js .letters{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Gemunu Libre', sans-serif;
+    color: #fff;
+}
+header .Js .active::after{
+    content: "";
+    display: block;
+    width: 65px;
+    margin: auto;
+    height: 2px;
+    background-color: rgb(255, 13, 243);
+    font-weight: 400;
+}
+header .Js input{
+    max-width: 150px !important;
+    border: none;
+    background-color: #b087cd;
+    border-radius: 50px;
+
+}
+header .Js input::placeholder{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(0, 225, 255);
+    font-family: 'Gemunu Libre', sans-serif;
+}
+header .Js i{
+    font-size: 25px;
+    
+    color: #fff;
+}
+.navbar-light .navbar-toggler{
+  
+    background-color: white;
+}
+.Js img{
+    max-width: 200px;
+    height: 100px;
+    margin: 0 auto;
+    
+}
+.Js a:hover{
+    
+   color: rgb(255, 13, 243) !important;
+  
+}
+
+
+.ml11 {
+    font-weight: 700;
+    font-size: 5.5em !important;
+  }
+  
+  .ml11 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    
+  }
+  
+  
+  .ml11 .line {
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 3px;
+    background-color: #fff;
+    transform-origin: 0 50%;
+  }
+  
+  .ml11 .line1 { 
+    top: 0; 
+    left: 0;
+}
+  
+.ml11 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+header .letter{
+    font-size: 80px !important;
+}
+header .text{
+    width: 100%;
+    height: 220px;
+    flex-direction: column;
+}
+header .top{
+    width: 100%;
+    height: 100%;
+    background-color: #38065d;
+    background: #262626;
+    
+}
+header h1{
+    font-size: 30px;
+    font-weight: 400;
+    color:white ;
+    font-family: 'Gemunu Libre', sans-serif;
+    line-height: 40px;
+}
+header i{
+    margin-right: 40px !important;
+}
+header i:hover{
+    transform: translateY(-25px);
+    transition: 2s;
+    background-color: aqua;
+    box-shadow: 5px 5px 50px;
+    border-radius: 50px;
+    cursor: pointer;
+    
+}
+header .fa-mobile{
+    font-size: 35px !important;
+}
+header .dropdown-menu{
+    background-color:#15054c;
+}
+header .btn{
+    background-color: #b087cd!important;
+    border: none;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Gemunu Libre', sans-serif;
+    color: white;
+}
+header .btn:hover{
+    color: aqua;
+}
+header .Js_top{
+    height: 150px;
+    background-color: #38065d;    
+    width: 1440px;
+    z-index: 12;
+    position: fixed;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+header .Js_bottom{
+    padding-top: 150px;
+}
